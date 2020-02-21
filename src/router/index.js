@@ -2,8 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import acfun from './acfun'
+import good from './good'
 const routes = [
   acfun,
+  good,
   {
     path:'/*',
     redirect:'/acfun'
